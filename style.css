@@ -42,6 +42,7 @@ a {
 }
 
 .top {
+    padding: 20px 0px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -52,15 +53,21 @@ a {
     color: white;
 }
 
+h1 {
+    padding-top: 00px;
+    margin: 0;
+}
+
 .webinfo,
 .webinfo p {
+    padding: 0;
     width: 400px;
 }
 
 .main-img {
     max-width: 400px;
     display: block;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 h2 {
@@ -74,7 +81,7 @@ h2 {
     flex-wrap: wrap;
     gap: 3%;
     align-items: flex-start;
-    padding: 8px
+    padding: 8px 0px 32px;
 }
 
 .img-text {
@@ -99,6 +106,7 @@ h2 {
 .img-text p {
     padding: 0;
     margin: 0;
+    margin-bottom: 10px;
     width: 150px;
 }
 
@@ -124,7 +132,14 @@ h2 {
     max-width: 700px;
 }
 
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 30px;
+}
+
 .name {
+    font-size: 20px;
     align-self: flex-end;
 }
 
@@ -162,6 +177,7 @@ h2 {
 }
 
 button {
+    font-weight: 600;
     height: 30px;
     flex: .3 0 auto;
     color: white;
